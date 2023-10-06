@@ -1,0 +1,24 @@
+.sgn-container {
+  max-width: 33%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sgn-button {
+  background-color: #6d9eeb;
+  border: 4px solid #6d9eeb;
+  padding: 10px 40px 10px 40px;
+  cursor: pointer;
+  font-size: large;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+}
+
+.sgn-button.disabled {
+  background-color: #78797c;
+  border: 4px solid #000000;
+}
+

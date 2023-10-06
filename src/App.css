@@ -1,0 +1,22 @@
+.app {
+  background-image: url(../src/resources/background-image-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+.form-title {
+  color: white;
+  margin: 40px 0 40px 30%;
+  font-size: x-large;
+}
+
+.form-container {
+  margin: 25px auto 75px auto;
+  width: 100%;
+}

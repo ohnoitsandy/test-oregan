@@ -1,0 +1,38 @@
+.input-container {
+  display: flex;
+  margin: 10px auto 10px auto;
+  min-height: 50px;
+  max-width: 33%;
+}
+
+.input-textarea {
+  display: flex;
+  background-color: #6d9eeb;
+  border: 4px solid #6d9eeb;
+  padding: 10px;
+  font-size: large;
+  transition: 0.5s;
+  outline: none;
+  width: 100%;
+}
+
+.input-textarea.password {
+  -webkit-text-security: disc;
+}
+
+.input-textarea:focus {
+  border: 4px solid #ffffff;
+}
+
+.input-placeholder {
+  color: black;
+  text-align: center;
+  opacity: 1;
+  width: 100%;
+  -webkit-text-security: none;
+}
+
+.keyboard-container {
+  max-width: 50%;
+  margin: auto;
+}
